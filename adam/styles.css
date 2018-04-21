@@ -21,9 +21,32 @@
 .navFlex{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+.wholeflexnav{
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}             
+}
+#navLogo{
+}
+.navlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 200px;
+}
+.navlink:hover{
+    text-decoration: none;
+    width: 100%;
+}
+
+
 /* HOVER CSS */
 
 /* Rectangle Out */
@@ -89,3 +112,5 @@
 #loggin:hover{
     cursor: pointer;
 }
+
+/* Gradient transparent - color - transparent */
