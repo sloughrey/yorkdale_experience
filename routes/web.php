@@ -26,15 +26,18 @@ Route::get('/home', function(){
 	return view('home');
 });
 
+Route::get('/myaccount', function(){
+	return view('myaccount');
+})->name('myaccount');
 
 Route::get('/map', function(){
 	return view('map');
-});
+})->name('map');
 
 Route::get('/exclusives',  function(){
 	return view('exclusives');
-});
+})->name('exclusives');
 
 Route::get('/events', function(){
 	return view('events');
-});
+})->name('events');
