@@ -5,14 +5,15 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">What are you looking for:</div>
-
-                <div class="card-body">
-                    <ul>
-                    	<li>Product</li>
-                    	<li>Store</li>
-                    </ul>
-                </div>
+                <div class="row flexBox">
+			        <div style="height: 100px; width: 100%"></div>
+			        <div id="welcome" style="" class="center col-12">
+			            <p>Welcome</p>
+			            <p>to the</p>
+			            <img style="width: 220px;" src="{{ URL::asset('images/yorkdale_logo.png') }}"/>
+			            <p>experience</p>
+			        </div>
+    			</div>
             </div>
         </div>
     </div>

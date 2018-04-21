@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
-            <img src="{{ URL::asset('images/yorkdale_1.svg') }}" />
+            <img src="{{ URL::asset('images/yorkdale_map_1.svg') }}" />
         </div>
     </div>
 </div>
