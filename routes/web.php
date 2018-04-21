@@ -11,15 +11,30 @@
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
-});
+}); */
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', function () {
+	return view('welcome');
+});
+
+Route::get('/home', function(){
+	return view('home');
+});
 
 
 Route::get('/map', function(){
-	echo 'this is the map';
+	return view('map');
+});
+
+Route::get('/exclusives',  function(){
+	return view('exclusives');
+});
+
+Route::get('/events', function(){
+	return view('events');
 });
