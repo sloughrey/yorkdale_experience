@@ -99,18 +99,21 @@
     justify-content: center;
     align-items: center;
 }
-
-#welcome p {
-    font-size: 3em;
-}
-#loggin{
-    background-color: red;
-    width: 30%;
-    max-width: 200px;
+.logbutton{
+    width: 80%;
+    padding: 20px 5px;
+    max-width: 400px;
     color: white;
 }
 #loggin:hover{
     cursor: pointer;
 }
-
 /* Gradient transparent - color - transparent */
+
+#homepage{
+    background-image: url('home-page.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+}
