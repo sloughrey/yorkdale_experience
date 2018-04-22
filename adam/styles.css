@@ -115,7 +115,7 @@
 /* Gradient transparent - color - transparent */
 
 #homepage{
-    background-image: url('home-page.png');
+    background-image: url('/public/images/home-page.png');
     background-position: center;
     background-repeat: no-repeat;
     height: 75vh;
@@ -136,6 +136,10 @@
 
 .categorybutton{
     padding: 10px 0;
+    margin-bottom: 20px;
+}
+.hyperlink:hover{
+    cursor: pointer;
 }
 
 .active{
