@@ -46,9 +46,10 @@
 	                        </a>
 	                		
 	                		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                           	<a class="dropdown-item" href="{{ route('home') }}">{{ __('Home') }}</a>
 	                           	<a class="dropdown-item" href="{{ route('map') }}">{{ __('Map') }}</a>
 	                            <a class="dropdown-item" href="{{ route('events') }}">{{ __('Events') }}</a>
-	                            <a class="dropdown-item" href="{{ route('exclusives') }}">{{ __('Exclusives') }}</a>
+	                            <a class="dropdown-item" href="{{ route('exclusives') }}">{{ __('Exclusive Products') }}</a>
 	                        </div>
                 		</li>
                     </ul>
