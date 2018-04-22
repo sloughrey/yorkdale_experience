@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.9.1/tachyons.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -18,8 +20,8 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <img id="navLogo" src="navlogo.png">
-            <h3>CART</h3> 
+            <a href="/home"><img id="navLogo" src="navlogo.png"></a>
+            <a href=""><img src="icons/Shop-icon.png"></a>
         </nav>
                 <div class="collapse" id="navbarToggleExternalContent">
                   <div style="height: 50vh;" class="bg-dark p-4 navFlex">
@@ -38,15 +40,71 @@
  
         </div>
 
-    <div style="width:100%" class="row">
-        <div class="center col-6">
-            apple
-        </div>
-        <div class="center col-6">
-            orange        
+    <div style="width:100%; margin: 0; padding-top: 10px;" class="text-center row">
+        <a class="col-3 subnavicons">
+            <img src="icons/search.png">
+        </a>
+        <a class="col-3 subnavicons">
+            <img src="icons/events.png">
+        </a>
+        <a class="col-3 subnavicons">
+            <img src="icons/exclusive.png">
+        </a>
+        <a class="col-3 subnavicons">
+            <img src="icons/map.png">
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="text-center col-12">
+            <p class="mt-4 mb-4 f1">What can we <br> help you find?</p>
         </div>
     </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+    <div class="row">
+        <div class="categorybutton active text-center col-6">
+            PRODUCTS
+        </div>
+        <div class="categorybutton text-center col-6">
+            CATEGORIES
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="text-center col-12">
+               <div class="dropdown show">
+                    <a class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose a stores
+                    </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Allsaints</a>
+                        <a class="dropdown-item" href="#">American Eagle</a>
+                        <a class="dropdown-item" href="#">Apple Store</a>
+                        <a class="dropdown-item" href="#">Armani Exchange</a>
+                        <a class="dropdown-item" href="#">...</a>
+                        <a class="dropdown-item" href="#">Canada Goose</a>
+                        <a class="dropdown-item" href="#">...</a>
+                        <a class="dropdown-item" href="#">H&M</a>
+                   </div>
+               </div>
+        </div>
+    </div>
+    <div class="row">
+            <div class="text-center col-12">
+                   <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Choose a category
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Apparel</a>
+                            <a class="dropdown-item" href="#">Athletic/Sporting</a>
+                            <a class="dropdown-item" href="#">Books</a>
+                            <a class="dropdown-item" href="#">Cards & Gifts</a>
+                            <a class="dropdown-item" href="#">Department Stores</a>
+                            <a class="dropdown-item" href="#">...</a>
+                       </div>
+                   </div>
+            </div>
+        </div>
 </body>
 </html>
