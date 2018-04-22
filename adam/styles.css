@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif; 
+}
+
 
 /* NAV BAR */
 .fa-1x {
@@ -116,4 +120,24 @@
     background-repeat: no-repeat;
     height: 75vh;
     width: 100%;
+}
+.subnavicons{
+    opacity: 0.5;
+}
+.subnavicons:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.dropdown-menu a{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.categorybutton{
+    padding: 10px 0;
+}
+
+.active{
+    background-color: #dddddd
 }
