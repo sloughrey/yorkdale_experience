@@ -10,7 +10,8 @@
        		echo 'qty remaining: ' . $p['qty_remaining'] . '<br>';
        		echo 'qty made: ' . $p['qty_made'] . '<br>';
        		echo 'price: ' . $p['price'] . '<br>';
-       		echo 'img url: ' . $p['image_url'] . '<br><br><br>';
+       		?> <img style="width:200px; height:200px;" src="<?php echo $p['image_url']; ?>" /><?php
+       		echo '<br><br><hr><br>';
        	} ?>
         </div>
     </div>

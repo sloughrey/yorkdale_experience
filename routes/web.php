@@ -39,7 +39,7 @@ Route::get('/exclusives',  function(){
 	$exclusive_products[] = [
 			'name' => 'Coach Dragonscale Handbag',
 			'price' => '2299.99',
-			'image_url' => URL::asset('images/coach_exclusive.jpeg'),
+			'image_url' => URL::asset('images/coach_exclusive.jpg'),
 			'qty_remaining' => 5,
 			'qty_made' => 100
 	];
@@ -47,7 +47,7 @@ Route::get('/exclusives',  function(){
 	$exclusive_products[] = [
 			'name' => 'Future Proof Trainers',
 			'price' => '279.99',
-			'image_url' => URL::asset('images/nike_exclusive.jpeg'),
+			'image_url' => URL::asset('images/nike_exclusive.jpg'),
 			'qty_remaining' => 23,
 			'qty_made' => 500
 	];
@@ -55,7 +55,7 @@ Route::get('/exclusives',  function(){
 	$exclusive_products[] = [
 			'name' => 'Burberry Signature Scarf',
 			'price' => '529.99',
-			'image_url' => URL::asset('images/burberry_exclusive.jpeg'),
+			'image_url' => URL::asset('images/burberry_exclusive.jpg'),
 			'qty_remaining' => 63,
 			'qty_made' => 200
 	];/* 
