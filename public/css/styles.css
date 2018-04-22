@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif; 
+}
+
 
 /* NAV BAR */
 .fa-1x {
@@ -99,18 +103,40 @@
     justify-content: center;
     align-items: center;
 }
-
-#welcome p {
-    font-size: 3em;
-}
-#loggin{
-    background-color: red;
-    width: 30%;
-    max-width: 200px;
+.logbutton{
+    width: 80%;
+    padding: 20px 5px;
+    max-width: 400px;
     color: white;
 }
 #loggin:hover{
     cursor: pointer;
 }
-
 /* Gradient transparent - color - transparent */
+
+#homepage{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+}
+.subnavicons{
+    opacity: 0.5;
+}
+.subnavicons:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.dropdown-menu a{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.categorybutton{
+    padding: 10px 0;
+}
+
+.active{
+    background-color: #dddddd
+}
