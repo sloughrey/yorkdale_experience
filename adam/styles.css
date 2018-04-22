@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif; 
 }
 
-
 /* NAV BAR */
 .fa-1x {
     font-size: 1.5rem;
@@ -148,6 +147,9 @@
     max-width: 400px;
     color: white;
 }
+.logbutton:hover{
+    cursor: pointer;
+}
 #loggin:hover{
     cursor: pointer;
 }
@@ -221,4 +223,30 @@
 
 .exclusiveButton:hover{
     cursor: pointer;
+}
+.float {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
 }
