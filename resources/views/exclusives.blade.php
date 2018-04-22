@@ -1,46 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="pos-f-t">
-        <nav style="width: 100%" class="wholeflexnav navbar navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="/home"><img id="navLogo" src="{{ asset('images/navlogo.png') }}"></a>
-            <a href=""><img src="{{ asset('images/icons/Shop-icon.png') }}"></a>
-        </nav>
-                <div class="collapse" id="navbarToggleExternalContent">
-                  <div style="height: 50vh;" class="bg-dark p-4 navFlex">
-                    <a style="border-bottom: solid #706a6ac0 1px;" class="navlink" href="#">
-                        <h4 class="text-white">Home</h4>
-                    </a>
-                    <a style="border-bottom: solid #706a6ac0 1px;" class="navlink" href="#">
-                        <h4 class="text-white">Map</h4>
-                    </a>
-                    <a class="navlink" href="#">
-                        <h4 class="text-white">My Account</h4>
-                    </a>
-                  </div>
-                </div>
-            </div>    
- 
-        </div>
-
-    <div style="width:100%; margin: 0; padding: 10px 20px 0 20px;" class="text-center row">
-        <a class="col-3 subnavicons">
-            <img src="{{ asset('images/icons/search.png') }}">
-        </a>
-        <a class="col-3 subnavicons">
-            <img src="{{ asset('images/icons/events.png') }}">
-        </a>
-        <a class="col-3 subnavicons">
-            <img src="{{ asset('images/icons/exclusive.png') }}">
-        </a>
-        <a class="col-3 subnavicons">
-            <img src="{{ asset('images/icons/map.png') }}">
-        </a>
-    </div>
-
     <div class="row">
         <div style="padding-right: 0;" class="text-center col-12">
             <h3 style="font-weight: 900;" class="tc mt-4 mb-4">EXCLUSIVE PRODUCTS</h3>
