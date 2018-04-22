@@ -80,5 +80,39 @@ Route::get('/exclusives',  function(){
 })->name('exclusives');
 
 Route::get('/events', function(){
-	return view('events');
+	$events = [];
+	$events[] = [
+			'name' => 'Fashion Timeplay Contest',
+			'date' => 'Monday April 23, 2018',
+			'start_time' => '2299.99',
+			'end_time' => 5,
+			'location' => 100,
+			'image_url' => URL::asset('images/timeplay.png'),
+	];
+	
+	$events[] = [
+			'name' => 'Aquazzura X Holt Renfrew',
+			'date' => 'Thursday April 26, 2018',
+			'start_time' => '3pm',
+			'end_time' => '5pm',
+			'location' => 'Holt Renfrew',
+			'image_url' => URL::asset('images/aquazzura.png'),
+	];
+	/* 
+	$events[] = [
+			'name' => 'Aquazzura X Holt Renfrew',
+			'date' => 'Thursday April 26, 2018',
+			'start_time' => '3pm',
+			'end_time' => '5pm',
+			'location' => 'Holt Renfrew',
+			'image_url' => URL::asset('images/timeplay.jpg'),
+	]; */
+	return view('events', [
+		'events' => $events
+	]);
 })->name('events');
+
+
+
+
+
