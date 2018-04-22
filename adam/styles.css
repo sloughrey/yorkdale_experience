@@ -196,3 +196,29 @@
 #categories{
     display: none;
 }
+#accordion a{
+    color: black;
+}
+.warning{
+    color: red;
+}
+
+.exclusiveButton{
+    width: 90%;
+    font-size: calc(0.5vw + 7px);
+    padding: 5px 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.buynow{
+    background-color: rgb(0, 150, 250);
+}
+
+.reserver{
+    background-color: rgb(122, 122, 122);
+}
+
+.exclusiveButton:hover{
+    cursor: pointer;
+}
